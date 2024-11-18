@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.margin-top {
+  margin-top: 130px;
+}
+
+.d-flex {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+header {
+  background-color: #102039;
+  border-bottom: 1px solid #d9d9d9;
+  padding-inline: 30px;
+  top: 0;
+}
+header nav {
+  flex-grow: 1;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  padding-block: 40px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+header nav ul li {
+  color: #fff;
+  font-size: 18px;
+}
+header nav ul i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+header .search-contact button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+header .search-contact a {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+  border-left: 1px solid #d9d9d9;
+  padding-block: 30px;
+  padding-left: 30px;
+}
+
+.head-bg {
+  background-image: url("../images/hero_bg.jpeg");
+}
+.head-bg .head-bg-content {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+.head-bg .head-bg-content p {
+  font-family: "Satisfy", cursive;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.head-bg .head-bg-content h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 75px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.head-bg .search-bar {
+  padding-bottom: 120px;
+}
+.head-bg .search-bar .form {
+  border: 1px solid gray;
+  background-color: rgba(128, 128, 128, 0.699);
+  border-radius: 5px;
+  padding: 25px 30px;
+}
+.head-bg .search-bar .form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 5px;
+  background-color: white;
+  padding: 25px;
+}
+.head-bg .search-bar .form form input {
+  border: none;
+  font-size: 17px;
+  color: #102039;
+  font-family: "Playfair Display", serif;
+  border-right: 1px solid gray;
+}
+.head-bg .search-bar .form form select {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #102039;
+}
+.head-bg .search-bar .form form button {
+  background-color: #3fd0d4;
+  border: none;
+  color: #102039;
+  font-family: "Playfair Display", serif;
+  flex-direction: row;
+}
+.head-bg .search-bar .form form button i {
+  font-size: 20px;
+}
+.head-bg .search-bar .form form button span {
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.about .about-description {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 100px;
+}
+.about .about-description .about-content span {
+  font-family: "Satisfy", cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #3fd0d4;
+}
+.about .about-description .about-content h2 {
+  color: #102039;
+  font-size: 45px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.about .about-description .about-content p {
+  color: #666;
+  font-size: 15px;
+  margin-block: 15px;
+  line-height: 25px;
+  font-family: "Jost", sans-serif;
+}
+.about .about-description .about-content h6 {
+  color: #3fd0d4;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.about .about-description .about-content ul {
+  margin-top: 40px;
+}
+.about .about-description .about-content ul li {
+  line-height: 35px;
+  font-size: 19px;
+  color: #666;
+}
+.about .about-description .about-content ul li i {
+  color: #3fd0d4;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.about .about-description .about-content button {
+  border: none;
+  background-color: #3fd0d4;
+  color: white;
+  padding: 18px 30px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.about .about-description .about-content button i {
+  margin-left: 5px;
+}
+.about .about-description .about-content button:hover {
+  background-color: #102039;
+  cursor: pointer;
+}
+
+.feature {
+  background-image: url("../images/feature_bg.jpeg");
+}
+.feature .feature-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-block: 100px;
+}
+.feature .feature-content .feature-description {
+  text-align: center;
+}
+.feature .feature-content .feature-description i {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 50px;
+  color: #3fd0d4;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.feature .feature-content .feature-description h3 {
+  color: #102039;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+.feature .feature-content .feature-description p {
+  color: #666;
+  line-height: 25px;
+  font-size: 17px;
+}
+.feature .feature-content .feature-description:hover i {
+  background-color: #3fd0d4;
+  color: white;
+}
+
+.package .package-title {
+  text-align: center;
+}
+.package .package-title span {
+  color: #3fd0d4;
+  font-family: "Satisfy", cursive;
+  letter-spacing: 3px;
+  font-size: 23px;
+}
+.package .package-title h2 {
+  color: #102039;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.package .package-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.package .package-image .package-image-description {
+  margin-top: 50px;
+  position: relative;
+}
+.package .package-image .package-image-description img {
+  border-radius: 5px;
+}
+.package .package-image .package-image-description .package-image-content {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  display: grid;
+}
+.package .package-image .package-image-description .package-image-content ul li {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+}
+.package .package-image .package-image-description .package-image-content h3 {
+  color: white;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  margin-top: 25px;
+}
+.package .package-image .package-image-description .package-image-content button {
+  border: none;
+  background-color: #3fd0d4;
+  color: white;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 70%;
+  margin-top: 20px;
+}
+.package .package-image .package-image-description .package-image-content .price {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
